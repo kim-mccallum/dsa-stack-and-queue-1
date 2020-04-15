@@ -6,4 +6,4 @@ let newStack = new Stack;
 
 ourItems.forEach(item => newStack.push(item));
 
-console.log(newStack);
+module.exports = newStack;
