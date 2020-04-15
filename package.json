@@ -1,0 +1,19 @@
+{
+  "name": "dsa-stacks-and-queues",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompts": "^2.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
