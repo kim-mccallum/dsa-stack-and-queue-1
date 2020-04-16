@@ -56,6 +56,8 @@ Extension extension exercise: Also recognize 2 types of quote character: "" and 
 
 ### 5. Sort stack  
 
+  > `./drills/sort-stack.js`  
+
 Write a program to sort a stack such that the smallest items are on the top (in ascending order). You can use an additional stack, but you may not use any other data structure (such as an array, or linked list).
 
 ### 6. Create a queue using Singly linked list  
