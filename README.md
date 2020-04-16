@@ -44,6 +44,8 @@ console.log(is_palindrome("Tauhida"));
 
 ### 4. Matching parentheses in an expression  
 
+  > `./drills/parentheses.js`  
+  
 A stack can be used to ensure that an arithmetic expression has balanced parentheses. Write a function that takes an arithmetic expression as an argument and returns true or false based on matching parenthesis. As a bonus provide a meaningful error message to the user as to what's missing. For example, you are missing a ( or missing a ")".
 
 For version 1, the parentheses you need to consider are ( and ). Finding a close parenthesis without an open parenthesis is an error (report the location of the close); reaching the end of the string while still "holding" an open parenthesis is also an error (report the location of the open).

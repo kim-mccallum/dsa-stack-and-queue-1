@@ -1,5 +1,3 @@
-import { Stack } from "./Stack";
-
 class _Node {
   constructor(val, next) {
     this.val = val;
@@ -54,7 +52,7 @@ class Queue {
   };
 };
 
-module.exports {
+module.exports = {
   Queue,
   _Node
 };
