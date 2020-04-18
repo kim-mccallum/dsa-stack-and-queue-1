@@ -5,16 +5,16 @@ class _Node {
   };
 };
 
-class Queue {
+class QueueSingle {
   constructor() {
     this.first = null;
     this.last = null;
   };
 
   // Add an item to the top of the queue
-  enqueue(data) {
+  enqueue(val) {
     // Declare our new item
-    const node = new _Node(data);
+    const node = new _Node(val);
 
     // If we don't have a first item, make this node first
     if ( this.first === null ) {
@@ -53,6 +53,6 @@ class Queue {
 };
 
 module.exports = {
-  Queue,
+  QueueSingle,
   _Node
 };

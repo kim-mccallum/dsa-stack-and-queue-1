@@ -62,6 +62,8 @@ Write a program to sort a stack such that the smallest items are on the top (in 
 
 ### 6. Create a queue using Singly linked list  
 
+  > `./drills/queue-single-list.js`  
+  
 Walk through the Queue class in the curriculum and understand it well. Then write a Queue class with its core functions (enqueue(), dequeue()) from scratch.
 
  - Create a queue called starTrekQ and add Kirk, Spock, Uhura, Sulu, and Checkov to the queue.
