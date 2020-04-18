@@ -23,7 +23,7 @@ class QueueDouble {
     } else {
       // link the current tail and new tail
       this.tail.next = newNode;
-      newNode.previous = this.tail;
+      newNode.prev = this.tail;
     }
 
     // reassign the tail to be the new node
