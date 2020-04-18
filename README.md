@@ -74,6 +74,8 @@ Walk through the Queue class in the curriculum and understand it well. Then writ
  - 
 ### 7. Create a queue class using Doubly linked List  
 
+  > `./drills/queue-double-list.js`  
+  
 Use the items listed in #6 and enqueue them to your queue.
 
 Check to see who is first one on the Queue?  
