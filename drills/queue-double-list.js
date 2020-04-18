@@ -11,3 +11,29 @@ let newQueue = new QueueDouble();
 ourItems.forEach(item => newQueue.enqueue(item));
 
 console.log(newQueue);
+
+while ( newQueue.head !== null ) {
+  newQueue.dequeue();
+  console.log("Dequeued:\n", newQueue);
+}
+
+console.log("All are dequeued: ", newQueue);
+
+// newQueue.enqueue("Stuff");
+// console.log(newQueue);
+
+// let newerQueue = new QueueDouble();
+// newerQueue.enqueue("Stuff");
+// console.log(newerQueue);
+
+// newerQueue.enqueue("Stuff2");
+// console.log(newerQueue);
+
+// newerQueue.dequeue();
+// console.log(newerQueue);
+
+// newerQueue.dequeue();
+// console.log("Newer queue: ", newerQueue);
+
+// let newnewqueue = new QueueDouble();
+// console.log("New new queue: ", newnewqueue);

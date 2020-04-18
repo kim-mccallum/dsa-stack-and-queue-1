@@ -34,22 +34,26 @@ class QueueDouble {
   dequeue() {
     // If the queue is empty, there is nothing to dequeue
     if ( this.head === null ) {
-      return null;
+      return;
     };
 
     // Declare our node to dequeue
-    const node = this.first;
-    // Set the 2nd item in queue to our first
-    this.first = this.first.next;
+    const node = this.head;
 
     // If this is the last item in the queue
-    if ( node === this.last ) {
-      // Set our last to null
-      this.last = null;
+    if ( node === this.tail ) {
+      this.head = null;
+      this.tail = null;
+      return;
     };
 
-    return node.value;
+    // Set the 2nd item in queue to our first
+    this.head = this.head.next;
+    this.head.prev = null;
+    
+    return node.val;
   };
+
 
 }
 
