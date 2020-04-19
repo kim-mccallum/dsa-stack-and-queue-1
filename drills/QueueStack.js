@@ -21,7 +21,7 @@ class QueueStack {
   dequeue() {
     if ( this.stack2.top === null ) {
       if ( this.stack1.top === null ) { 
-        return 'Cannot dequeue because queue is empty'; 
+        return null;
       }
       while ( this.stack1.top ) {
         let val = this.stack1.pop();
