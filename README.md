@@ -88,6 +88,8 @@ There are many ways to implement a queue. You have learned using singly linked l
 
 ### 9. Square dance pairing  
 
+  > `./drills/square-dance.js`  
+  
 As people come to the dance floor, they should be paired off as quickly as possible: man with woman, man with woman, all the way down the line. If several men arrive in a row, they should be paired in the order they came, and likewise if several women do. Maintain a queue of "spares" (men for whom you have no women yet, or vice versa), and pair them as appropriate.
 
 F Jane
